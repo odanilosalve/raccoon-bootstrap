@@ -1,0 +1,8 @@
+#cloud-config
+autoinstall:
+  version: 1
+  # TODO: Add the non-interactive identity section (no passwords in this repo).
+  # TODO: Define whole-disk storage layout with LUKS.
+  # TODO: Configure UEFI boot and Secure Boot handling.
+  # TODO: Add Intel + NVIDIA hybrid graphics packages and configuration.
+  # TODO: Add first-boot commands or scripts via late-commands if needed.
